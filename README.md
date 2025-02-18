@@ -13,4 +13,5 @@ Voici la liste des projets que j'ai mené suivant les **3 catégories précéden
 
 **Personnels (Entrepreneur)** :
 - *Arthurnoo/Candy-crush* : Jeu intéractif avec une forte inspiration du jeu Candy-Crush. Le jeu comporte encore quelques limites mais il fonctionne dans son ensemble. Ce jeu a été programmé grâce à l'intelligence artificielle pour comprendre son fonctionnement. Une publication sur LinkedIn a été faite.
-- 
+- *Arthurnoo/Arthurnoo.github.io* : Site internet personnel en cours de construction.
+- *Arthurnoo/Robin_glasses* : Site internet pour autrui, avec une implémentation d'un chatbot de prise de contact.
