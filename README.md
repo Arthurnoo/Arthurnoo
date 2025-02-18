@@ -21,3 +21,6 @@ Voici la liste des projets que j'ai mené suivant les **3 catégories précéden
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Arthurnoo&theme=github-dark)
 
+## 📈 Contributions GitHub
+
+![Contributions GitHub](https://ghchart.rshah.org/Arthurnoo)
