@@ -19,8 +19,5 @@ Voici la liste des projets que j'ai mené suivant les **3 catégories précéden
 
 ## 📊 GitHub Activity
 
-![GitHub Contributions](https://github-readme-streak-stats.herokuapp.com/?user=Arthurnoo)
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Arthurnoo&theme=github-dark)
 
-## 🚀 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Arthurnoo&show_icons=true&theme=dark)
