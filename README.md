@@ -9,4 +9,6 @@ Voici la liste des projets que j'ai mené suivant les **3 catégories précéden
 - *romandb21/StatApp* (projet privé) : Projet de statistiques appliquées en collaboration avec l'Olympique Lyonnais. L'objectif était d'analyser l'impact de la charge physique, à l'entraînement et en match, sur la fatigue des joueurs.
 
 **Professionnels (Finance)** :
-- *arthurnoo/Markowitz_Portfolio_Sim* : Simulateur de portefeuille suivant la méthode d'optimisation de Markowitz. 
+- *arthurnoo/Markowitz_Portfolio_Sim* : Simulateur de portefeuille suivant la méthode d'optimisation de Markowitz. Travail personnel pour appréhender la recherche quantitative et appliquer une méthode d'optimisation connue. Cette méthode garde de nombreuses limites mais c'est une bonne entrée pour comprendre le fonctionnement. L'interface est très intéractive et intuitive, n'hésitez pas à regarder par vous-même : https://github.com/Arthurnoo/Markowitz_Portfolio_Sim.
+
+  
