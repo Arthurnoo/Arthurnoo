@@ -43,7 +43,7 @@ hands-on with the mechanics of portfolio construction rather than to propose it 
 for **alpha-stable models**: inference on distributions whose likelihood has no closed form, a
 setting that shows up whenever you take heavy tails in financial returns seriously. Joint work,
 also mirrored at
-[avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models](https://github.com/avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models).
+[avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models](https://github.com/avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models) *(private)*.
 
 ---
 
