@@ -25,6 +25,15 @@ returns) addressed one by one. The code and the numbers belong to the desk, so t
 published here. If you have questions on the methodology, I would be glad to go through it in
 a call.
 
+**[Out of Sample](https://arthurnoo.pythonanywhere.com)** · *weekly newsletter, live* · [notebooks](https://github.com/Arthurnoo/out-of-sample)
+
+A weekly quant newsletter in English: one testable idea per issue, replicated end to end on
+free data only. Each article comes with a notebook that downloads its own data and runs top to
+bottom in Colab with no setup, with every parameter gathered in one section so the reader can
+change it and rerun. Issues so far cover buying the dip, risk-neutral pricing, whether quants
+use the formulas they were taught, covariance estimation, how much history to use, and what
+happens when every variable goes into a regression.
+
 **Portfolio Terminal** · *private repository, happy to walk through it on request*
 
 A Bloomberg-style financial terminal that runs locally: a single-page web app on a Python/Flask
@@ -44,15 +53,6 @@ and the market plumbing: data sourcing, backtest methodology, execution assumpti
 
 ### Incoming
 
-**[Out of Sample](https://github.com/Arthurnoo/out-of-sample)** · *weekly newsletter, launching soon*
-
-A weekly quant newsletter in English: one testable idea per issue, replicated end to end on
-free data only. Each article comes with a notebook that downloads its own data and runs top to
-bottom in Colab with no setup, with every parameter gathered in one section so the reader can
-change it and rerun. The first issues cover buying the dip, risk-neutral pricing, covariance
-estimation, how much history to use, and what happens when every variable goes into a
-regression.
-
 **Social Media Alpha** · *private, research project with Candriam*
 
 A project carried out with the asset manager **Candriam** on whether information extracted from
@@ -70,14 +70,13 @@ whether that link can be traded.
 ### Quantitative finance
 
 **[Monte-Carlo](https://github.com/Arthurnoo/Monte-Carlo)**: Approximate Bayesian Computation
-for **alpha-stable models**, with **[Avner Elbaz](https://github.com/avnerelbaz3500)**.
+for **alpha-stable models**. Joint project.
 Alpha-stable distributions are a natural model for heavy-tailed financial returns, but their
 density has no closed form, so the likelihood cannot be written down. Following Peters, Sisson
 and Fan (2012), we implement the Chambers-Mallows-Stuck generator, reduce its variance with
 randomised quasi-Monte Carlo (Sobol, Halton) and antithetic variates, then estimate the four
 parameters with several ABC samplers (plain rejection, regression-adjusted rejection, MCMC-ABC)
-built on McCulloch's quantile statistics. Also mirrored at
-[avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models](https://github.com/avnerelbaz3500/Monte-Carlo-ABC-for-alpha-stable-models) *(private)*.
+built on McCulloch's quantile statistics.
 
 **[Markowitz_Portfolio_Sim](https://github.com/Arthurnoo/Markowitz_Portfolio_Sim)**: Portfolio
 simulator built on Markowitz mean-variance optimisation, with an interactive interface for
@@ -89,7 +88,7 @@ hands-on with the mechanics of portfolio construction rather than to propose it 
 
 ### Academic projects (ENSAE)
 
-**StatApp with Olympique Lyonnais** · *private, with [romandb21](https://github.com/romandb21)*
+**StatApp with Olympique Lyonnais** · *private repository*
 
 Applied statistics project run with **Olympique Lyonnais** on the club's own player tracking
 data: measuring how specific training and match efforts affect the fatigue players report.
@@ -99,7 +98,7 @@ science. A recommendation engine for music festivals in France. Honest outcome: 
 of actual user preferences, we could not train a predictive model, so the project ended as a
 filtering and ranking engine rather than the recommender we set out to build.
 
-**[lysaar/ensae-prog24](https://github.com/lysaar/ensae-prog24)**: Algorithmics. Sorting an
+**[ensae-prog24](https://github.com/lysaar/ensae-prog24)**: Algorithmics. Sorting an
 *n×n* grid into a target arrangement while minimising the number of moves: a search problem
 solved by comparing greedy, BFS and A\* strategies on the state graph.
 
