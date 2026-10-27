@@ -7,8 +7,7 @@ I work on **rates, credit and volatility**, and on what can be built on top of t
 internships: **credit trading at Barclays** and **rates structuring at BNP Paribas**. I am
 looking for a **quantitative trading internship or graduate programme**, in Europe or abroad.
 
-This profile collects the projects I build on the side. Each one below says plainly what it is,
-what it does, and what I actually did myself.
+This profile collects the projects I build on the side.
 
 ---
 
@@ -20,18 +19,18 @@ Built during my internship on the **EUR investment-grade credit desk at Barclays
 pipeline for **relative value between corporate bonds**. It covers the full chain, from cleaning
 several years of daily bond-level data (thousands of issues) to building mean-reversion and
 machine-learning signals on spreads, and backtesting them with the biases that usually inflate
-such results (look-ahead in static fields, leakage across the train/test split, overlapping
+such results (look-ahead in static fields, flaw in data due to a lack of liquidity in certain bonds, overlapping
 returns) addressed one by one. The code and the numbers belong to the desk, so they are not
 published here. If you have questions on the methodology, I would be glad to go through it in
 a call.
 
 **[Out of Sample](https://arthurnoo.pythonanywhere.com)** · *weekly newsletter, live* · [notebooks](https://github.com/Arthurnoo/out-of-sample)
 
-A weekly quant newsletter in English: one testable idea per issue, replicated end to end on
+A weekly quant newsletter: one testable idea per issue, replicated end to end on
 free data only. Each article comes with a notebook that downloads its own data and runs top to
 bottom in Colab with no setup, with every parameter gathered in one section so the reader can
 change it and rerun. Issues so far cover buying the dip, risk-neutral pricing, whether quants
-use the formulas they were taught, covariance estimation, how much history to use, and what
+use the formulas that we are taught, covariance estimation, how much history to use, and what
 happens when every variable goes into a regression.
 
 **Portfolio Terminal** · *private repository, happy to walk through it on request*
@@ -43,11 +42,8 @@ walk-forward), paper trading with realistic fills, and a world-events map fed by
 sources (OpenSky, AIS, USGS, NASA, World Bank).
 
 **On how it was built:** I designed the product (what each module should contain, which metrics
-matter, how the backtests should be specified), but the code itself was written with the
-assistance of **Claude (Anthropic)**, in an iterative loop where I specified and reviewed each
-feature. I mention this because it matters: it is a product and system-design project, not a
-demonstration that I can write 20k lines of Flask by hand. What I take from it is the modelling
-and the market plumbing: data sourcing, backtest methodology, execution assumptions.
+matter, how the backtests should be specified), but the screener itself was coded with the help 
+of AI. Models implemented remain my my own ideas and my own code, though.
 
 ---
 
@@ -81,8 +77,7 @@ built on McCulloch's quantile statistics.
 **[Markowitz_Portfolio_Sim](https://github.com/Arthurnoo/Markowitz_Portfolio_Sim)**: Portfolio
 simulator built on Markowitz mean-variance optimisation, with an interactive interface for
 exploring the efficient frontier. A deliberately classical method, with well-known limits
-(estimation error on the covariance matrix, instability of the weights): I built it to get
-hands-on with the mechanics of portfolio construction rather than to propose it as a live tool.
+(estimation error on the covariance matrix, instability of the weights).
 
 ---
 
